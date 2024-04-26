@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\doann\\OneDrive\\Masaüstü\\BlogApp\\BlogApp\\BlogApp.csproj": {}
+    "C:\\Users\\doann\\OneDrive\\Masaüstü\\Yeni klasör\\BlogApp\\BlogApp\\BlogApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\doann\\OneDrive\\Masaüstü\\BlogApp\\BlogApp\\BlogApp.csproj": {
+    "C:\\Users\\doann\\OneDrive\\Masaüstü\\Yeni klasör\\BlogApp\\BlogApp\\BlogApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\doann\\OneDrive\\Masaüstü\\BlogApp\\BlogApp\\BlogApp.csproj",
+        "projectUniqueName": "C:\\Users\\doann\\OneDrive\\Masaüstü\\Yeni klasör\\BlogApp\\BlogApp\\BlogApp.csproj",
         "projectName": "BlogApp",
-        "projectPath": "C:\\Users\\doann\\OneDrive\\Masaüstü\\BlogApp\\BlogApp\\BlogApp.csproj",
+        "projectPath": "C:\\Users\\doann\\OneDrive\\Masaüstü\\Yeni klasör\\BlogApp\\BlogApp\\BlogApp.csproj",
         "packagesPath": "C:\\Users\\doann\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\doann\\OneDrive\\Masaüstü\\BlogApp\\BlogApp\\obj\\",
+        "outputPath": "C:\\Users\\doann\\OneDrive\\Masaüstü\\Yeni klasör\\BlogApp\\BlogApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\doann\\AppData\\Roaming\\NuGet\\NuGet.Config"
