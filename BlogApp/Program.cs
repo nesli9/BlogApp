@@ -5,7 +5,7 @@ var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddDbContext<BlogContext>(options =>{
     var config = builder.Configuration;
-    var connectionString = config.GetConnectionString("sql_connetction");
+    var connectionString = config.GetConnectionString("sql_connection");
     options.UseSqlite(connectionString);
 });
 
