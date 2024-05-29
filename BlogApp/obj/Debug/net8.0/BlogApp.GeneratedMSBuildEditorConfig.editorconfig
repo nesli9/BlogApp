@@ -1,5 +1,5 @@
 is_global = true
-build_property.TargetFramework = net7.0
+build_property.TargetFramework = net8.0
 build_property.TargetPlatformMinVersion = 
 build_property.UsingMicrosoftNETSdkWeb = true
 build_property.ProjectTypeGuids = 
@@ -12,7 +12,7 @@ build_property.RootNamespace = BlogApp
 build_property.ProjectDir = C:\Users\doann\OneDrive\Masaüstü\Yeni klasör\BlogApp\BlogApp\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
-build_property.RazorLangVersion = 7.0
+build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
 build_property.MSBuildProjectDirectory = C:\Users\doann\OneDrive\Masaüstü\Yeni klasör\BlogApp\BlogApp
@@ -20,8 +20,4 @@ build_property._RazorSourceGeneratorDebug =
 
 [C:/Users/doann/OneDrive/Masaüstü/Yeni klasör/BlogApp/BlogApp/Views/Posts/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9zdHNcSW5kZXguY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/doann/OneDrive/Masaüstü/Yeni klasör/BlogApp/BlogApp/Views/Posts/_ViewImports.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9zdHNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 

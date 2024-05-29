@@ -62,5 +62,5 @@ C:\Users\doann\OneDrive\Masaüstü\Yeni klasör\BlogApp\BlogApp\bin\Debug\net7.0
 C:\Users\doann\OneDrive\Masaüstü\Yeni klasör\BlogApp\BlogApp\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
 C:\Users\doann\OneDrive\Masaüstü\Yeni klasör\BlogApp\BlogApp\bin\Debug\net7.0\Mono.TextTemplating.dll
 C:\Users\doann\OneDrive\Masaüstü\Yeni klasör\BlogApp\BlogApp\bin\Debug\net7.0\System.CodeDom.dll
-C:\Users\doann\OneDrive\Masaüstü\Yeni klasör\BlogApp\BlogApp\bin\Debug\net7.0\MySqlConnector.dll
-C:\Users\doann\OneDrive\Masaüstü\Yeni klasör\BlogApp\BlogApp\bin\Debug\net7.0\Pomelo.EntityFrameworkCore.MySql.dll
+C:\Users\doann\OneDrive\Masaüstü\Yeni klasör\BlogApp\BlogApp\obj\Debug\net7.0\BlogApp.RazorAssemblyInfo.cache
+C:\Users\doann\OneDrive\Masaüstü\Yeni klasör\BlogApp\BlogApp\obj\Debug\net7.0\BlogApp.RazorAssemblyInfo.cs

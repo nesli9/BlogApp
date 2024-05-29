@@ -1,0 +1,9 @@
+C:\Users\doann\OneDrive\Masaüstü\Yeni klasör\BlogApp\BlogApp\obj\Debug\net8.0\BlogApp.csproj.AssemblyReference.cache
+C:\Users\doann\OneDrive\Masaüstü\Yeni klasör\BlogApp\BlogApp\obj\Debug\net8.0\BlogApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\doann\OneDrive\Masaüstü\Yeni klasör\BlogApp\BlogApp\obj\Debug\net8.0\BlogApp.AssemblyInfoInputs.cache
+C:\Users\doann\OneDrive\Masaüstü\Yeni klasör\BlogApp\BlogApp\obj\Debug\net8.0\BlogApp.AssemblyInfo.cs
+C:\Users\doann\OneDrive\Masaüstü\Yeni klasör\BlogApp\BlogApp\obj\Debug\net8.0\BlogApp.csproj.CoreCompileInputs.cache
+C:\Users\doann\OneDrive\Masaüstü\Yeni klasör\BlogApp\BlogApp\obj\Debug\net8.0\BlogApp.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\doann\OneDrive\Masaüstü\Yeni klasör\BlogApp\BlogApp\obj\Debug\net8.0\BlogApp.RazorAssemblyInfo.cache
+C:\Users\doann\OneDrive\Masaüstü\Yeni klasör\BlogApp\BlogApp\obj\Debug\net8.0\BlogApp.RazorAssemblyInfo.cs
+C:\Users\doann\OneDrive\Masaüstü\Yeni klasör\BlogApp\BlogApp\obj\Debug\net8.0\BlogApp.sourcelink.json
