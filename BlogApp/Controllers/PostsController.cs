@@ -13,12 +13,16 @@ namespace BlogApp.Controllers{
         public PostsController(IPostRepository postRepository ){
             _postRepository = postRepository; //inject yöntemiyle nesne oluşturulması sağlanır
         }
-        public IActionResult Index(){
-            return View(
-                new PostsViewModel{
-                    Posts = _postRepository.Posts.ToList()
-                }
-            );
+        public async Task<IActionResult> Index(string tag){
+
+            var posts = _postRepository.Posts;
+
+            if (!string.IsNullOrEmpty(tag))
+            {
+                posts = posts.Where(x => x.Tags.Any(t => t.Url == tag)); //gönderilen tagle eşleşen bir kayıt varsa geri dönen kayda alınır
+            }
+            return View(new PostsViewModel{Posts = await posts.ToListAsync()});
+            
         }
         public async Task<IActionResult> Details(string url){
             return View( await _postRepository.Posts.FirstOrDefaultAsync(p => p.Url == url));
