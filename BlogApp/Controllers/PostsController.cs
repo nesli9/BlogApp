@@ -21,11 +21,14 @@ namespace BlogApp.Controllers{
             {
                 posts = posts.Where(x => x.Tags.Any(t => t.Url == tag)); //gönderilen tagle eşleşen bir kayıt varsa geri dönen kayda alınır
             }
-            return View(new PostsViewModel{Posts = await posts.ToListAsync()});
+            return View(new PostsViewModel {Posts = await posts.ToListAsync()});
             
         }
         public async Task<IActionResult> Details(string url){
-            return View( await _postRepository.Posts.FirstOrDefaultAsync(p => p.Url == url));
+            return View( await _postRepository
+                                .Posts
+                                .Include(x => x.Tags)
+                                .FirstOrDefaultAsync(p => p.Url == url));
         }
 
     }
