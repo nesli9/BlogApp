@@ -27,7 +27,9 @@ namespace BlogApp.Controllers{
         public async Task<IActionResult> Details(string url){
             return View( await _postRepository
                                 .Posts
-                                .Include(x => x.Tags)
+                                .Include(x => x.Tags) //tag sorgusu 
+                                .Include(x => x.Comments) //gidilen comment
+                                .ThenInclude(x => x.User)//gidilen entity içerisinde extra sorgu yazılır (her gidilen commentın user bilgisi yazdırılır.)
                                 .FirstOrDefaultAsync(p => p.Url == url));
         }
 
