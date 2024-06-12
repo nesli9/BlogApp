@@ -15,6 +15,7 @@ builder.Services.AddDbContext<BlogContext>(options =>{
 
 builder.Services.AddScoped<IPostRepository ,EfPostRepository>();
 builder.Services.AddScoped<ITagRepository ,EfTagRepository>();
+builder.Services.AddScoped<ICommentRepository ,EfCommentRepository>(); //ICommentRepository çağrıldığı zaman , EfCommentRepository versiyonu nesne olarak oluşturulup geri gönderilir.
 
 
 var app = builder.Build();

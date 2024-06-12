@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "EO3D6LrYv/lpVTn3VvlnOxLpEXuH8Vjv3GidtLEluwY=",
+  "Hash": "ny8+xIJH3ozhEzZPB+ksKKWKeTdkCqIUpj4fgs1tjdE=",
   "Source": "BlogApp",
   "BasePath": "_content/BlogApp",
   "Mode": "Default",
@@ -91,6 +91,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\3.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\doann\\OneDrive\\Masaüstü\\Yeni klasör\\BlogApp\\BlogApp\\wwwroot\\img\\avatar.jpg",
+      "SourceId": "BlogApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\doann\\OneDrive\\Masaüstü\\Yeni klasör\\BlogApp\\BlogApp\\wwwroot\\",
+      "BasePath": "_content/BlogApp",
+      "RelativePath": "img/avatar.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\avatar.jpg"
     },
     {
       "Identity": "C:\\Users\\doann\\OneDrive\\Masaüstü\\Yeni klasör\\BlogApp\\BlogApp\\wwwroot\\img\\p1.jpg",
