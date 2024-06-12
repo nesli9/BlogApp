@@ -32,6 +32,10 @@ namespace BlogApp.Controllers{
                                 .ThenInclude(x => x.User)//gidilen entity içerisinde extra sorgu yazılır (her gidilen commentın user bilgisi yazdırılır.)
                                 .FirstOrDefaultAsync(p => p.Url == url));
         }
+        public IActionResult AddComment(int PostId , string UserName ,string Text){
+            return View();
+
+        }
 
     }
 }

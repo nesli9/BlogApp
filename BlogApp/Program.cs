@@ -28,7 +28,7 @@ SeedData.TestVerileriniDoldur(app);
 
 app.MapControllerRoute(
     name : "post_details",
-    pattern : "posts/{url}",
+    pattern : "posts/details/{url}",
     defaults : new {controller = "Posts", action = "Details"} //sayfanın yönlendireceği yer
 );
 
@@ -38,8 +38,8 @@ app.MapControllerRoute(
     defaults : new {controller = "Posts", action = "Index"} //sayfanın yönlendireceği yer
 );
 
-app.MapControllerRoute(
-    name : "default",
+app.MapControllerRoute( //yukarıdaki url ler dışında bir url varsa bu kısım ele alınır
+    name : "default", 
     pattern : "{controller=Home}/{action=Index}/{id?}"
 );
 
